@@ -26,23 +26,18 @@ fonction1()
 
 // fonctionalité 2:
 
+unction burger() {
 
-function clic(){
+	var nav = document.getElementById("navbarHeader");
+	var menu = document.querySelector("button.navbar-toggler");
+	menu.addEventListener('click', add_or_removeCol);
 
-	var b = document.querySelector("button.navbar-toggler");
+	function add_or_removeCol(){
+		nav.classList.toggle("collapse"); //fonction qui permet de rajouter une classe si elle n'est pas déjà présente et l'enlever si elle est déjà présente.
+	};
+}
 
-	var a = document.getElementById("navbarHeader");
-
-
-		b.addEventListener("click",function(){
-
-			 a.classList.toggle("collapse")
-
-		});
-	
-	}
-
-	clic()
+burger();
 	
 
 	
