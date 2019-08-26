@@ -138,5 +138,13 @@ for(let i = 0; i<frame.length;i++){
 
 // fonction 7:
 
+function permit(){
+	var right = document.getElementsByClassName("btn btn-secondary my-2")[0];
+	right.addEventListener("click",function(){
+		var parent = document.getElementsByClassName("row")[1];
+		parent.insertBefore(parent.lastChild, parent.childNodes[0]);
+	});
+};
+permit();
 
 
