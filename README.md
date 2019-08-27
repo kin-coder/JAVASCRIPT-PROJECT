@@ -2,9 +2,12 @@
 Pair programming:
 
 
-1) RAKOTOVAO Ronick   slack: @kin      github: kin-coder
-2) RAKOTONOMENJANAHARY   SLACK: @Menja    github: menja-coder
-3) RAZANAJATOVO Nanirisoa Nambinina  slack: RAZANAJATOVO Nanirisoa Nambinina   github: Nam-9
+1) RAKOTOVAO Ronick   slack: @kin      github: https://github.com/kin-coder
+2) RAKOTONOMENJANAHARY   SLACK: @Menja    github: https://github.com/menja-coder
+
+3) RAZANAJATOVO Nanirisoa Nambinina  slack: RAZANAJATOVO Nanirisoa Nambinina   github: https://github.com/Nam-9
+
+
 
 
 
