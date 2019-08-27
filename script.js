@@ -148,3 +148,13 @@ function permit(){
 permit();
 
 
+
+// fonction 8:
+let greyBtn = document.getElementsByClassName('btn-primary')[0];
+greyBtn.addEventListener("click", function cardLeft(event){
+event.preventDefault();
+let parentElmt = document.getElementsByClassName("row")[1];
+let parentElmtLength = parentElmt.children.length;
+parentElmt.insertBefore(parentElmt.firstElementChild, parentElmt.children[(parentElmtLength)])
+  
+});
